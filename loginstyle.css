@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 80px;
+    background-color: #f09af0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    background-color: white;
+    min-width: 300px;
+    width: 35%;
+    height: 65vh;
+    margin: auto;
+    box-shadow: 200px black;
+}
+.header{
+    position: absolute;
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.email{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 120px;
+    padding: 0 10px;
+    justify-content: center;
+}
+.email p{
+    display: inline-block;
+    position: absolute;
+    margin:5px;
+    left: 5px;
+    margin-top: 10px;
+}
+.email input{
+    display:inline-block;
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    text-align: justify;
+    left: 5px;
+    height: 25px;
+    padding: 10px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+
+.password{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 200px;
+    padding: 0 10px;
+    justify-content: center;
+}
+.password p{
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    left: 10px;
+}
+.password input{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 25px;
+    text-align: justify;
+    left: 5px;
+    padding: 10px;
+    margin-top: 40px;
+    justify-content: center;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    width: 96%;
+    margin-left: 2%;
+    height: 25px;
+    padding: 10px;
+    background-color: rgb(36, 36, 205);
+    border-radius: 5px;
+    color: white;
+}
+.elfelejtett{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    top: 350px;
+}
+.nincs{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    top:380px;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
+}

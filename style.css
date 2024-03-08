@@ -1,0 +1,719 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(168, 219, 236);
+    width: 100%;
+    margin: 0;
+}
+.header{
+    position: relative;
+    width:100%;
+    height: 50px;
+    padding: 15px;
+    background-color: rgb(49, 49, 180);
+    border: solid 1px;
+}
+h2{
+    position: relative;
+    top: -30px;
+    margin-left: 5px;
+}
+.kereses{
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 30px;
+    top: 10px;
+    margin-left: 125px;
+    border-radius: 5px;
+}
+.kereses input{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    margin-left: 10%;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+.harang{
+    position: absolute;
+    top: 5px;
+    right: 60px;
+    font-size: 32px;
+}
+.phoenix{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+}
+.idojaras{
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    width: 75%;
+    height: 100%;
+}
+.idojaras h2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 50px;
+    width: 10%;
+    top: 20px;
+    left: 125px;
+}
+.idojaraskep{
+    display: flex;
+    position: absolute;
+    top: 120px;
+    width: 80%;
+    height: 40%;
+    left: 125px;
+}
+.emberek{
+    position: absolute;
+    display: flex;
+    left: 125px;
+    top: 500px;
+    width: 80%;
+    height: 210px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.emberek h2{
+    position: absolute;
+    display: inline-block;
+    width: 10%;
+    top: -55px;
+    left: 5px;
+}
+.ismeros{
+    position: relative;
+    display: inline-block;
+    top: -8px;
+    left: 5px;
+    width: 80px;
+    height: 25px;
+    font-size: 10px;
+    border: solid 1px green;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+.ismeros p{
+    display: inline-block;
+    position: static;
+    margin: auto;
+}
+.uzenet{
+    position: relative;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    top: -8px;
+    border: solid 1px green;    
+    border-radius: 5px;
+    left: 40px;
+}
+.üzenet i{
+    text-align: center;
+}
+.ember1{
+    display: inline-block;
+    position: relative;
+    width: 155px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
+.ember1 p{
+    margin-left: 5px;
+}
+.ember2{
+    width: 155px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
+.ember2 p{
+    margin-left: 5px;
+}
+.ember3{
+    width: 155px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
+.ember3 p{
+    margin-left: 5px;
+}
+.ember4{
+    width: 155px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
+.ember4 p{
+    margin-left: 5px;
+}
+.ember5{
+    width: 155px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
+.ember5 p{
+    margin-left: 5px;
+}
+.ember6{
+    width: 155px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
+.ember6 p{
+    margin-left: 5px;
+}
+.jeloles{
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    border: solid 1px blue;
+    border-radius: 5px;
+    top: -8px;
+    left: 5px;
+    text-align: center;
+}
+.jeloles p{
+    position: relative;
+    text-align: center;
+    top: -5px;
+}
+.ismeretlen{
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: blue;
+    border: solid 1px blue;
+    border-radius: 5px;
+    top: -12px;
+    left: 22px;
+}
+.kozzetetel{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 250px;
+    background-color: #F8F8FF;
+    border: solid 1px;
+    border-radius: 5px;
+    top: 770px;
+    left: 120px;
+}
+.kozzetetel h2{
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    left: 5px;
+}
+.belso{
+    display: inline-block;
+    position: absolute;
+    width: 98%;
+    height: 200px;
+    background-color: white;
+    top: 35px;
+    left: 10px;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.belso img{
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.belso textarea{
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.cimkek{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+    border: solid 1px blue;
+    border-radius: 5px;
+}
+.szemelyek{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+    border: solid 1px blue;
+    border-radius: 5px;
+    top: 8px;
+}
+.kepvideo{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+    border: solid 1px blue;
+    border-radius: 5px;
+    top: 15px;
+}
+.helyszin{
+   position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+    border: solid 1px blue;
+    border-radius: 5px;
+    top: 20px; 
+}
+.megosztas{
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    height: 160px;
+    text-align: center;
+    color: blue;
+    border: solid 1px blue;
+    border-radius: 5px;
+    top: 5px;
+    left: 5px;
+}
+.gombokbal{
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 170px;
+    left: 80%;
+    top: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.gombjobb{
+    position: absolute;
+    display: inline-block;
+    width: 90px;
+    height: 175px;
+    left: 91%;
+    top:  14px;
+}
+.ikon{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+}
+.hirek{
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    top: 1050px;
+    left: 25%;
+    background-color: whitesmoke;
+}
+.hirek .felsosor{
+    position: relative;
+    display: block;
+    height: 50px;
+}
+.hirek img{
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+}
+.tuzfonix{
+    position: relative;
+    color:blue;
+    left: 55px;
+    top: 10px;
+}
+.idopont{
+    position: relative;
+    left: 130px;
+    top: -24px;
+}
+.hir{
+    position: relative;
+    display: inline-block;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+    width: 98%;
+    height: 82%;
+    left: 1%;
+}
+.hir img{
+    position: relative;
+    left: 0;
+}
+.hirek h2{
+    color: blue;
+    margin-top: 40px;
+}
+.hir h3{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.hiridopont{
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    border: solid 1px gray;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.hol{
+    display: inline-block;
+}
+.loremhir{
+    margin-left: 10px;
+}
+.teljescikk{
+    margin-left: 10px;
+}
+.video{
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: auto;
+    background-color: whitesmoke;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    top:1800px;
+    left: 25%;
+    margin-bottom: 5px;
+}
+.nevesidopont{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.nevesidopont img{
+    position: relative;
+    margin: 5px;
+}
+.nevesidopont p{
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    bottom: 20px;
+}
+.conti{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 1%;
+    background-color: white;
+}
+.cimke h3{
+    position: relative;
+    top: 0;
+    left: 15px;
+}
+.szorakozas{
+    position: relative;
+    display: inline-block;
+    border: solid 2px blue;
+    color: blue;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 15px;
+}
+.unnepek{
+    position: absolute;
+    display: inline-block;
+    border: solid 2px blue;
+    color: blue;
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 5px;
+}
+.kisjoska{
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    border: solid 2px green;
+    border-radius: 15px;
+    left: 15px;
+}
+.kisjoska img{
+    position: relative;
+    display: inline-block;
+    left: 5px;
+    padding: 5px;
+}
+.kisjoska p{
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    color: green;
+    top: -17px;
+}
+.ismerosok h3{
+    display: block;
+    margin-left: 20px;
+}
+.fajlok h3{
+    position: relative;
+    top: 0;
+    left: 15px;   
+}
+.kep1{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 25px;
+    bottom: 10px;
+}
+.kep2{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 25px;
+    bottom: 10px;
+}
+.kep3{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 25px;
+    bottom: 10px;
+}
+.kep4{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 25px;
+    bottom: 10px;
+}
+.kep5{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 100px;
+}
+.kep6{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 25px;
+}
+.kep7{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 25px;
+}
+.youtube{
+    position: relative;
+    display: block;
+    left: 15%;
+    top: 15px;
+}
+.video .leiras{
+    margin-left: 15px;
+}
+.video h2{
+    color: blue;
+    margin-left: 15px;
+    top: 0;
+}
+.doboz{
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: auto;
+    background-color: whitesmoke;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    top:2700px;
+    left: 25%;
+}
+.ytvideo{
+    background-color: white;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    width: 98%;
+    height: 400px;
+    margin-left: 1%;
+}
+.videotartalom iframe{
+    position: relative;
+    display: block;
+    top: 30px;
+    left: 85px;
+}
+.videotartalom p{
+    position: relative;
+    display: block;
+    margin-left: 15px;
+    top: 25px;
+}
+.doboz h2{
+    color: blue;
+    margin-left: 15px;
+    top: 0;
+}
+.ujmegosztas{
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 680px;
+    background-color: whitesmoke;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    top: 3250px;
+    left: 25%;
+}
+.tartalomdoboz{
+    background-color: white;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+}
+.tartalomdoboz p{
+    margin-left: 15px;
+}
+.ujmegosztas h2{
+    position: relative;
+    display: block;
+    top:3px;
+    left: 5px;
+    color: blue;
+}
+.csempek{
+    position: absolute;
+    display: inline-block;
+    width: 75%;
+    height: 120px;
+    top: 4000px;
+    left: 10%;
+}
+.csempek h2{
+    position: relative;
+    top: -55px;
+}
+.csempek div{
+    display: inline-block;
+    position: relative;
+    width: 179px;
+    height: 90px;
+    border: solid 1px;
+    bottom: 50px;
+    text-align: center;
+    left: 5px;
+    background: #F8F8FF;
+}
+.csempek div i{
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: 70px;
+    font-size: 50px;
+    color: blue;
+}
+.csempek img{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+.tovabbihirek{
+    position: absolute;
+    display: inline-block;
+    top: 4130px;
+    width: 80%;
+    height: auto;
+    left: 8%;
+}
+.tovabbihirek .hir img{
+    width: 100%;
+}
+.tovabbihirek .hir{
+    position: relative;
+    display: inline-block;
+    width: 280px;
+    height: 500px;
+    margin-top: 5px;
+}
+.hir1{
+    top: 10px;
+}
+.hir2{
+    top: -8px;
+}
+.hir3{
+    top: -9px;
+}
+.hir4{
+    top:-28px;
+}
+.tovabbihirek .hir p{
+    margin-left: 5px;
+}
