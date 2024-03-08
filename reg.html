@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="regstyle.css">
+    <title>iChat regisztráció</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fa-solid fa-user-plus"></i> iChat regisztráció</h1>
+        </div>
+        <div class="form">
+            <div class="nev">
+                <p>Név</p>
+                <input type="text" placeholder="Hogy hívnak?" class="name">
+            </div>
+            <div class="email">
+                <p>Email</p>
+                <input type="email" placeholder="Add meg az email címedet!">
+            </div>
+            <div class="lakhely">
+                <p>Lakhely (ország)</p>
+                <br><select name="orszag" id="orszag">
+                    <option value="" default>-Válassz-</option>
+                    <option value="Magyarország">Magyarország</option>
+                    <option value="Németország">Németország</option>
+                    <option value="Olaszország">Olaszország</option>
+                    <option value="Franciaország">Franciaország</option>
+                </select>
+            </div>
+            <div class="varos">
+                <p>Város</p>
+                <input type="text">
+            </div>
+            <div class="telefon">
+                <p>Telefonszám</p>
+                <input type="tel" placeholder="Csak számjegyeket adj meg">
+            </div>
+            <div class="birthdate">
+                <p>Születési dátum</p>
+                <input type="date">
+            </div>
+            <div class="jelszo">
+                <p>Jelszó</p>
+                <input type="password" placeholder="Jelszavad">
+            </div>
+            <div class="repassword">
+                <p>Jelszó ismét</p>
+                <input type="password" placeholder="Jelszavad ismét">
+            </div>
+            <div class="nemed">
+                <p>Nemed:</p></div>
+                <div class="man"><input type="radio">Férfi</div>
+                <div class="woman"><input type="radio">Nő</div>
+                <div class="egyeb"><input type="radio">Egyéb</div>
+            <div class="feltetelek"><input type="checkbox" id="feltetelek"><label for="feltetelek" id="feltetelek">Elfogadom a felhasználói feltételeket!</label></div>
+
+            <br><button>Regisztráció</button>
+                <br><a href="#">Elfelejtetted a jelszavad?</a>
+                <br><a href="#">Már regisztráltál?</a>
+        </div>
+    </div>
+</body>
+
+</html>
